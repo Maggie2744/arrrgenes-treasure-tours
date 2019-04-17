@@ -48,21 +48,22 @@ html {
 }
 
 .nav a span {
-  border-bottom: .3rem solid #bea59b;
+  border: .2rem solid #fff;
+  padding: .1rem;
 }
 
 .nav a:hover span {
-  border-bottom-color: white;
-  outline: 3px solid white;
+  outline: 1px solid white;
   color: #000;
   background-color: #fff;
   border: 1px solid white;
 }
 
 .nav a:focus span {
-  outline: 3px solid white;
+  outline: 1px solid white;
   background-color: #000;
   border: 1px solid white;
+  color: #fff;
 }
 
 .banner {
