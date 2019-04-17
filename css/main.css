@@ -3,15 +3,24 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
-.visually-hidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
+.skip-links {
+  margin: 0;
   padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
   position: absolute;
-  width: 1px;
-  border: 0;
-  clip: rect(0 0 0 0);
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 
 .masthead {
