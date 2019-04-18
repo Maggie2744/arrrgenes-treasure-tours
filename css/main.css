@@ -3,6 +3,10 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
@@ -47,12 +51,12 @@ html {
   text-decoration: none;
 }
 
-.nav a span {
+/* .nav a span {
   border: .2rem solid #fff;
   padding: .1rem;
-}
+} */
 
-.nav a:hover span {
+/* .nav a:hover span {
   outline: 1px solid white;
   color: #000;
   background-color: #fff;
@@ -64,11 +68,18 @@ html {
   background-color: #000;
   border: 1px solid white;
   color: #fff;
-}
+} */
 
 .banner {
   min-height: 16em;
   color: #fff;
+}
+
+.banner a:hover,
+.banner a:focus,
+nav a:focus,
+nav a:hover {
+  outline: 3px solid #fff;
 }
 
 .card {
